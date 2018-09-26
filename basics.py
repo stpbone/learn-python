@@ -11,6 +11,10 @@ class my_bikes:
     def change_name(self, new_name): # note that the first argument is self
      self.name = new_name # access the class attribute with the self keyword
 
+# create a function (method) to change the class attribute 'color'
+    def change_color(self, new_color): # note that the first argument is self
+     self.color = new_color # access the class attribute with the self keywor
+
 # define the class  
 bike = my_bikes()
 
@@ -26,3 +30,9 @@ print(bike.name)
 # change the name using the change_name method
 bike.change_name("Trek")
 print(bike.name)
+
+# change the color using the change_color method
+bike.change_color("Red")
+print(bike.color)
+
+
