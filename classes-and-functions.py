@@ -14,7 +14,7 @@ class Person:
     print("My ftp is " + self.ftp)
     
 
-p1 = Person("Simon Bone", "35 years old", "175cm tall", "69kg", "250 watts")
+p1 = Person("Simon Bone", "32 years old", "176cm tall", "72kg", "260 watts")
 p1.myfunc()
 p1.myftp()
 
